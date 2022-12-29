@@ -1,0 +1,236 @@
+#navbar {
+    margin-left: 34vh;
+    margin-right: 15vh;
+}
+
+
+  
+#navbar ul{
+    display: flex;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background-blend-mode: darken;
+  
+   
+  } 
+
+
+#navbar ul li{
+    margin: 10px;
+    
+  } 
+#navbar ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px 8px;
+    display: block;
+    color: wheat;
+    font-family: sans-serif;
+    font-weight: 500;
+}  
+#navbar ul li a:hover{
+    border-bottom: 3px solid wheat;
+}
+.logo #google{
+    margin: 10px 10px;
+    display: flex;
+    height: 50px;
+}
+.logo{
+    margin: 31px 79px;
+}
+.main .logo{
+    border-radius: 15px;
+    background-color: #f1ecec78;
+    display: flex;
+}
+.main .logo .search {
+    padding: 6px 28px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: all .2s linear;
+    padding-right: 274px;
+}
+.main .logo .btn {
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+    border-radius: 7px;
+    background-color: rgb(54 218 54);
+    color: white;
+    border-color: rgba(54 218 54);
+    border-spacing: 1px;
+    cursor: pointer;
+}
+.main .logo .btn:hover{
+    color: green;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+}
+.content_extend{
+        margin-top: 5vh;
+        display: flex;
+        height: 100%;
+}
+.content_extend .link {
+    font-weight: 700;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.content_extend .links p{
+    color: #85898d;
+    max-width: 800px;
+}
+.content_extend .link:hover{
+    color: orangered;
+    padding-bottom: 3px;
+    transition: ease-in;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+.content .link {
+    font-weight: 700;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.content .links p{
+    color: #85898d;
+}
+.content .link:hover{
+    color: orangered;
+    padding-bottom: 3px;
+    transition: ease-in;
+}
+.content .pic img{
+    height: 220px;
+}
+.content #box {
+    padding:10px;
+    position: relative;
+    margin-left: 40vh;
+    border-radius: 1rem;
+    border: 2px solid gray;
+}
+.content #box p{
+    max-width: 350px;
+    padding: 0;
+    font-family: sans-serif;
+    color: #686060;
+}
+.content #box img{
+    height:200px;
+
+}
+.content .pic p{
+    margin:0;
+    padding: 0;
+    color: black;
+}
+.people .qbox {
+    border-bottom: 2px solid black;
+    margin-right: 100vh;
+}
+.people .notmain {
+    border-top-right-radius: none;
+    border: 2px solid black;
+    margin-right: 100vh;
+}
+.people .qbox .arrow {
+    position: absolute;
+    cursor: pointer;
+    right: 103vh;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+.people{
+    margin-top: 5vh;
+ 
+}
+.people .notmain .arrow1{
+    position: absolute;
+    cursor: pointer;
+    right: 103vh;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.people .qbox p{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.feed{
+    position:absolute;
+    right: 3vh;
+    text-decoration: none;
+    color: #686060;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main .logo .sign {
+    position: absolute;
+    right: 20vh;
+    top: 6vh;
+    text-decoration: none;
+    font-size: medium;
+    background: #8ab4f8;
+    border: 1px solid transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-width: 59px;
+    padding: 9px;
+    border-radius: 6px;
+    color: #202124;
+}
+.main .logo .sign:hover{
+    background-color: black;
+    color: white;
+}
+
+.ender .google img{
+    align-self: center;
+    margin-left: 70vh;
+    height: 15vh;
+    cursor: pointer;
+}
+.ender .google{
+    align-items: center;
+    justify-content: center;
+}
+.ender .info{
+    background-color: black;
+}
+.ender .info p{
+    border-bottom: 2px solid white;
+    text-align: center;
+    padding: 9px;
+    font-size: 15px;
+    color: #acb2b8;
+}
+.ender .info a{
+    color: #8ab4f8;
+    text-decoration: none;
+}
+.ender .info a:hover{
+    text-decoration: underline;
+}
+.ender .ending .end{
+    color: rgb(155, 142, 142);
+    text-align: center;
+    padding: 10px;
+    margin-left: 15px;
+}

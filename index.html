@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1110px)" href="phone.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="logo"><a
+                href="https://www.google.com/webhp?hl=en&amp;sa=X&amp;ved=0ahUKEwjr4q38sq36AhUYSWwGHeSTBWAQPAgI"
+                title="Go to Google Home" id="logo" data-hveid="8"><img id="google"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"></a>
+            <input type="search" placeholder="Search" class="search" aria-describedby="search-addon" />
+            <button type="button" onclick="info()" class="btn">Google Search</button><button onclick="info()" type="button" class="btn">I'm Feeling
+                Lucky</button>
+            <a class="sign" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dgoogle%26oq%3Dgoogle%2B%26aqs%3Dchrome.0.69i59j69i60l4j69i65l3.1228j0j1%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ">Sign In</a>
+        </div>
+        <nav id="navbar">
+            <ul>
+              <li class="item"><a href="https://www.google.com/maps?q=maps&source=lmns&bih=746&biw=1536&hl=en-US&sa=X&ved=2ahUKEwjn1ILUtbH6AhWHidgFHdjWCLQQ_AUoAXoECAEQAQ" target="_blank"> Maps</a></li>
+              <li class="item"><a href="https://www.google.com/search?q=4k+images&tbm=isch&ved=2ahUKEwix5t_HtbH6AhW9j9gFHT7mAPYQ2-cCegQIABAA&oq=4k+images&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAELEDEEM6BAgAEEM6CggAELEDEIMBEEM6CwgAEIAEELEDEIMBOggIABCxAxCDAToECAAQA1CCAljOIGCWIWgEcAB4AIABiAGIAbQNkgEEMC4xNJgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=YQ8xY_GxOL2f4t4PvsyDsA8&bih=746&biw=1536" target="_blank"> Images</a></li>
+              <li class="item"><a href="https://www.google.com/search?q=latest+news&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjg2rf0tLH6AhVHcGwGHThKA8oQ_AUoAXoECAEQAw&biw=1536&bih=746&dpr=1.25" target="_blank"> News</a></li>
+              <li class="item"><a href="https://www.google.com/search?q=books&biw=1536&bih=746&tbm=bks&ei=0w4xY77UOKPhseMPzIGuyAU&ved=0ahUKEwj-iYWEtbH6AhWjcGwGHcyAC1kQ4dUDCAk&uact=5&oq=books&gs_lcp=Cg1nd3Mtd2l6LWJvb2tzEAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEUABY6w1grQ5oAHAAeACAAXWIAb4DkgEDMC40mAEAoAEBwAEB&sclient=gws-wiz-books" target="_blank">Books</a></li>
+              <li class="item"><a href="https://www.google.com/search?tbm=shop&q=shopping&spell=1&sa=X&ved=0ahUKEwiR7uC7tbH6AhWOR2wGHYM6ARUQBQixBigA&biw=1536&bih=746&dpr=1.25" target="_blank">Shopping</a></li>
+              <li class="item"><a href="https://www.google.com/search?q=videos&biw=1536&bih=746&tbm=vid&ei=Hw8xY7G2L5uhseMP5t2bqAI&ved=0ahUKEwjxwZqotbH6AhWbUGwGHebuBiUQ4dUDCA0&uact=5&oq=videos&gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATIICAAQgAQQsQMyCwgAEIAEELEDEIMBMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgsIABCABBCxAxCDATIFCAAQgAQyCAgAEIAEELEDOgUIABCRAjoLCAAQsQMQgwEQkQI6CAgAELEDEIMBOgQIABBDOgcIABCxAxBDUABY2gxg7w1oAHAAeACAAZUBiAHWBZIBAzAuNpgBAKABAcABAQ&sclient=gws-wiz-video" target="_blank"> Videos</a></li>
+            </ul>
+        
+          </nav>
+        <hr>
+        <section class="content">
+            <div class="links">
+                <a class="link" href="http://wikipedia.com"> Wikipedia.org- Wikipedia- Nupedia and
+                    Wikipedia</a><br><p>Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p><br><br>
+                <a class="link" href="http://facebook.com"> Facebook- log in or sign up</a><br><p>Connect With Your Friends Online. Join The Facebook Community - Free. Share Photos And Videos, Messages And Get Updates From Your Communities. Connect With Old Friends. Share Photos. Share Your Memories. Find Friends. Follow Interesting Topics. Chat Online.</p><br><br>
+                <a class="link" href="http://instagram.com"> Instagram</a><br><p>Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.</p><br><br>
+                <a class="link" href="http://amazon.in">Shop online on Amazon- get the best deals on Amazon
+                </a><br><p>Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards. Free Shipping & Cash on Delivery ...</p><br><br>
+                <a href="http://twitter.com" class="link"> Log in to Twitter</a><br><p>Log in to Twitter to see the latest. Join the conversation, follow accounts, see your Home Timeline, and catch up on Tweets from the people you know.</p><br><br>
+            </div>
+            <div id="box"><img
+                    src="https://thumbs.dreamstime.com/b/global-network-connection-modern-world-technology-160081851.jpg">
+                <p>In the modern World, Technology
+                    has taken a new form. Programming is a principle of humanism. It has transformed life and enhanced
+                    the world in an extraordinary way.Modern world is a great place to live in  because we have many opportunities and resources for us to make our life easier. Technology, education, healthcare system are some significant parts of modern world that improve the quality<br> of our lives every day.
+                </p><img src="https://www.mooc.org/hubfs/applications-of-computer-programming.jpg">
+            </div>
+
+        </section>
+        <a class="feed" href="http://shantanu2605.github.io/shantanu.me">Feedback</a>
+        <section class="people">
+            <div class="qbox"><p>People also search for:- <button type="button" class="arrow">˅</button></p></div>
+            <div class="qbox"><p>What is AI ?</p> </div>
+            <div class="qbox"><p>What is Python ?</p></div>
+            <div class="qbox"><p>Best Gaming Pcs for 2022</p></div>
+            <div class="qbox"><p>More...</p></div>
+        </section>
+        <section class="content_extend">
+            <div class="links">
+                <a href="http://youtube.com" class="link">Youtube</a><br><p>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p><br><br>
+                <a href="http://razorpay.com" class="link">RazorPay Payment Solution- No Setup or Maintenance fees</a><br><p>RazorPay Software Private Limited- The One Stop For Payment Pages, Links, Invoices, Subscription, Payouts, Reminders And More
+                </p><br><br>
+                <a href="http://play.google.com" class="link">Google Play Store- Download Free Android Apps</a><br><p>Entertainment at your fingertips, on any Android device! Visit the Google Play Store Now. Top apps, books, games & more available! Millions have downloaded, have you? Entertainment. Check out weekly deals. Customized experience. Weekly...</p><br><br>
+                <a href="http://netflix.com" class="link">Netflix - Watch TV Shows Online, Watch Movies Online</a><br><p>What is Netflix? Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, ...</p><br><br>
+
+            </div>
+        </section>
+        <section class="ender">
+            <div class="google">
+                <img src="https://www.pagetrafficbuzz.com/wp-content/uploads/image/google%20interface%20for%20tablet%201.jpg">
+            </div>
+            <div class="info">
+                <p>India - New Delhi 110045: <a href="https://support.google.com/assistant/answer/7394009?hl=en&co=GENIE.Platform%3DAndroid" >Based on your past activity- Update location</a></p>
+                <div class="ending">
+                <a class="end" href="https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1" target="_blank">Help</a>
+                <a class="end" href="https://shantanu2605.github.io/shantanu.me" target="_blank">Send Feedback</a>
+                <a class="end" href="https://policies.google.com/privacy?hl=en-IN&fg=1" target="_blank">Privacy</a>
+                <a class="end" href="https://policies.google.com/terms?hl=en-IN&fg=1" target="_blank">Terms</a>
+                </div>
+            </div>
+
+        </section>
+
+<script>
+    function info(){
+        alert("Sorry this function is not available currently!")
+    }
+</script>
+
+<!-- ˅  ˅ -->
+    </section>
+</body>
+</html>

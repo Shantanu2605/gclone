@@ -1,0 +1,107 @@
+
+#navbar ul li {
+    margin: 3px;
+}
+#navbar ul{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+#navbar ul li a {
+    text-decoration: none;
+    list-style: none;
+    padding: 7px 0px;
+    display: block;
+    color: wheat;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+#navbar{
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.main .logo .sign {
+    position: initial;
+    text-align: center;
+    margin: 3px;
+    padding: 4px;
+    border-radius: 6px;
+    color: #202124;
+}
+.main .logo{
+    width: 100%;
+    display: inline-grid;
+}
+.logo{
+    margin: 0;
+}
+.logo #google {
+    margin: 7px 1px;
+    display: flex;
+    height: 50px;
+}
+.main .logo .btn {
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.main .logo .search{
+    margin: 0;
+    padding-right: 0;
+}
+.content{
+    max-width: 338px;
+    display: inherit;
+}
+.content #box{
+    margin-left: 0;
+}
+.content #box img {
+    height: 166px;
+    border-radius: 10px;
+}
+.feed{
+    position: absolute;
+    right: 35vh;
+}
+.people .qbox{
+    margin-right: 0;
+}
+
+.people .qbox .arrow {
+    position: absolute;
+    right: 6vh;
+}
+.content_extend .link{
+    margin-left: 0;
+}
+.content_extend .links p {
+    max-width: 314px;
+}
+.people {
+    margin-top: 5vh;
+    max-width: 332px;
+}
+.content_extend {
+    margin-top: 5vh;
+    display: flex;
+    height: 100%;
+    max-width: 304px;
+}
+.ender .google img {
+    margin-left: 0;
+    height: 18vh;
+}
+.ender .info {
+    background-color: black;
+    margin-right: 0;
+    max-width: 330px;
+}
+.ender .ending .end {
+    margin-left: 0;
+    font-size: 15px;
+}
